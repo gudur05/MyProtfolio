@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+
+    <form>
+        <label for = "username">Username:</label> 
+        <input type = "text" id = "username" name = "username" placeholder="Enter username" size = "25px" required>
+        <br><br>
+        <label for = "password">Password:</label>
+        <input type = "password" id = "password" name = "password" placeholder="Enter password" size = "25px" required>
+        
+        <br><br>
+
+        <label>Gender</label>
+        <input type = "radio" id = "maleradio">
+        <label for = "maleradio">Male</label>
+
+        <input type = "radio" id = "femaleradio">
+        <label for = "femaleradio">Female</label>
+
+        <br> <br>
+
+        <label>Programming Languages</label> <br>
+        <input type = "checkbox" id = "c" value = "c">
+        <label for = "c">C</label>
+
+        <input type = "checkbox" id = "java" value = "java">
+        <label for = "java">Java</label>
+
+        <input type = "checkbox" id = "React" value = "react">
+        <label for = "React">React JS</label>
+
+        <input type = "checkbox" id = "py" value = "Python">
+        <label for = "py">Python</label>
+
+        <br> <br>
+
+        <label for = "comment" >Leave a comment</label><br> 
+        <textarea id = "comment" placeholder="Please leave your suggestions/feedback" rows = "5" cols = "50"></textarea>
+
+        <br> <br>
+
+        <label>Shift timing:</label>
+        <select>
+            <option>Select preferred shift</option>
+            <option>Morning Shift</option>
+            <option>Aternoon Shift</option>
+            <option>Night Shift</option>
+        </select>
+
+
+         <br> <br>
+
+        <button type = "submit">Submit</button>
+        <button type = "reset">Reset</button>
+    </form>
+</body>
+</html>
